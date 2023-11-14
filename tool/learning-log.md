@@ -9,9 +9,13 @@ Project: Making the background music for Angela's game using EarSketch. After ma
 10/29/23:
 * I watched a [YouTube tutorial](https://youtu.be/IzTgY1SLqgo?si=89TvcnY47OiMtb9m) on how to use ``EarSketch using JavaScript and I learned a tip to create a variable for each beat so I won't have to manually change everything.
 * I tried, on `EarSketch`, to set up a `var` for a soundtrack and played it using `fitMedia(sound, track, start, end)`. I used the piano sound track and named it piano1. I didn't know what "track", "start", and "end" meant so I gave it different numbers. I found out that track just means what row I want my cound to be on, start is the measure where my sound starts on, and end is the measure where my sound stops on. I first tried `fitMedia(piano1, 1, 1, 2)` but the music sounded short so I changed the ending measure to 3 and it sounded more complete. I tried to change the track number to 2 to see what would happen but nothing really happened other than the sound moved from row 1 to 2.
-* While typing in `fitMedia()`, I saw many other codes, I wonder what those codes are for and if I would ever have to use those. If those aren't codes then I wonder if what those are, are they just the sound names? 
+* While typing in `fitMedia()`, I saw many other codes, I wonder what those codes are for and if I would ever have to use those. If those aren't codes then I wonder if what those are, are they just the sound names?
 
-
+11/13/23
+* I watched a [video](https://youtu.be/UbhdenVCgRs?si=dYNC149-12D1Xg2C) on how to make EarSketch into an mp3 file.
+* Then I searched on [google](https://beta.reddit.com/r/cs50/comments/1742soy/uploading_mp3_files_to_my_final_project_folder/) for how to insert my mp3 file of the song I created in EarSketch into cs50.dev.
+* Lastly, I watched a [video](https://youtu.be/UHjTXLAS4tU?si=GEOdSMgSJWmH1yAG) on how to use `<audio>`.
+* Next time I want to check out other functions EarSketch has such as `makeBeat()`.
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
