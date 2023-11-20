@@ -23,3 +23,8 @@ Project: Making the background music for Angela's game using EarSketch. After ma
 * Questions you still have
 * What you're going to try next
 -->
+
+11/19/23
+* Didn't really tinker too much but I looked over all the possible codes I can use in API of EarSketch.
+* I used another sound where a lady was singing and created an mp3 file.
+    * I found out that there will be lyrics on the bottom of the screen. 
