@@ -27,4 +27,11 @@ Project: Making the background music for Angela's game using EarSketch. After ma
 11/19/23
 * Didn't really tinker too much but I looked over all the possible codes I can use in API of EarSketch.
 * I used another sound where a lady was singing and created an mp3 file.
-    * I found out that there will be lyrics on the bottom of the screen. 
+    * I found out that there will be lyrics on the bottom of the screen.
+
+11/25/23
+* I watched this [video](https://youtu.be/WA_Ci2ZtuRM?si=lZ-AS0B9XYczzU_L) on YouTube to learn what insertMedia does because I know how to use fitMedia, but I'm still learning the other functions.
+* I learned that fitMedia and insertMedia are similar except for insertMedia does not have an end measure meaning it only plays the sound once.
+    * This means that insertMedia is most useful when you want the sound you chose to play the whole thing without having to wonder how many measure it takes up.
+    * I went on earSketch to try out insertMedia by using the first guitar sound that I used in my fitMedia before but insertMedia was better since I didn't have to replay the sound many times to see when the measure ends. 
+* My next step is to watch more videos on YouTube on the other functions and trying to make something using those functions.
