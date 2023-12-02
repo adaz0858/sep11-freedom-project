@@ -33,5 +33,12 @@ Project: Making the background music for Angela's game using EarSketch. After ma
 * I watched this [video](https://youtu.be/WA_Ci2ZtuRM?si=lZ-AS0B9XYczzU_L) on YouTube to learn what insertMedia does because I know how to use fitMedia, but I'm still learning the other functions.
 * I learned that fitMedia and insertMedia are similar except for insertMedia does not have an end measure meaning it only plays the sound once.
     * This means that insertMedia is most useful when you want the sound you chose to play the whole thing without having to wonder how many measure it takes up.
-    * I went on earSketch to try out insertMedia by using the first guitar sound that I used in my fitMedia before but insertMedia was better since I didn't have to replay the sound many times to see when the measure ends. 
+    * I went on earSketch to try out insertMedia by using the first guitar sound that I used in my fitMedia before but insertMedia was better since I didn't have to replay the sound many times to see when the measure ends.
 * My next step is to watch more videos on YouTube on the other functions and trying to make something using those functions.
+
+11/27/23
+* I learned a setEffect() function where I can put an effect on my volume of a specific track. I can make it gain valume so that tracks volume increases as the measure increases.
+* I went to find the setEffect function in the API to see what those numbers in the parenthesis meant.
+12/2/23
+* I continued from 11/27 and copied the code from API for setEffect() and compared the difference between the sound with the effect of filter and without the effect.
+    * I heard that the sound with the effect of filter went from really muffled to becomming clear while the sound without effect sounded the same throughout. 
