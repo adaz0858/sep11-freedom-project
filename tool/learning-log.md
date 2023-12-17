@@ -46,4 +46,11 @@ Project: Making the background music for Angela's game using EarSketch. After ma
 * I didn't learn anything new for this week but I combined my knowledge on what I know about `setTempo()`, `insertMedia()`, and `setEffect()` and created a small music with those functions.
 * I tried making my tempo slower, hoping to create a sad song since sad songs have slow beats, but instead I created suspenseful music instead. This is fine because I am supposed to be creating suspenseful or creepy music for my freedom project with Angela.
 * I also learned that for `setEffect()`, you need to write the words in capitalization in order for the code to work.
-    * I wrote `setEffect(1, volume, gain, -55, 1, 0, 3)` instead of `setEffect(1, VOLUME, GAIN, -55, 1, 0, 3)` and it said that volume was not defined and my code couldn't run. This code allows my music to start out with a low volume and gain volume as the song runs. 
+    * I wrote `setEffect(1, volume, gain, -55, 1, 0, 3)` instead of `setEffect(1, VOLUME, GAIN, -55, 1, 0, 3)` and it said that volume was not defined and my code couldn't run. This code allows my music to start out with a low volume and gain volume as the song runs.
+12/16/23
+* After learning that `setEffect()` is used to create different effects on a specific track, I tried to see what `rhythmEffects()` does.
+* I copied the code of `rhythmEffects()` in API, `rhythmEffects(1, PITCHSHIFT, PITCHSHIFT_SHIFT, [0, -12], 1, "0---1++0", 4);`, to check out what it does to the music.
+* I went to the "Every Effect Explained in Detail" link and found what PITCHSHIFT was and copied the example it gave using `setEffect()`.
+    * `setEffect(1, PITCHSHIFT, PITCHSHIFT_SHIFT, -10);`
+* I checked to see the difference between the two functions and saw that `setEffect()` of PITCHSHIFT makes the original music sound deeper and more muffled but the effect is more consistant; while, the PITCHSHIFT using the `rhythmEffects()` code above makes the original music deeper and muffled too, but you can change the tone of the music to make the sound go deeper or higher (Still deep and muffled though).
+* I'll try to figure out how to write my own code for `rhythmEffects()` next so I understand what those numbers are used for so I won't have to only use their default numbers.
