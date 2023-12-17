@@ -6,7 +6,8 @@ I've been learning about my tool EarSketch by tinkering with their given functio
 ```html
 <audio control autoplay loop src = "random (1).mp3"></audio>
 ```
-This code takes the mp3 file I created and embeded into my sandbox and also embed it into my `earsketch.html` file I created. This code allows the music I played to play as soon as I open the page and play on loop. Since the random music I used is consisted of a person singing, there would be lyrics on the bottom of the page.
+This code takes the mp3 file I created and embeded into my sandbox and also embed it into my `earsketch.html` file I created. This code allows the music I played to play as soon as I open the page and play on loop. Since the random music I used is consisted of a person singing, there would be lyrics on the bottom of the page. ![lyrics](lyrics.png)
+After learning `fitMedia()`, I tried to learn about `insertMedia()` since it was the closest to what fitmedia is. I learned that it's basically the same as fitMedia except that insertMedia allows you to play the full sound once so you won't have to guess how many measure a sound takes up. After learning about how to insert sounds, I need to check out on how to make the different sounds contain different effects. Then I came across the `setEffect()` function. Using this function, the first effect I used was the gain in volume effect. However, the setEffect by itself was only able to create a minor and consistant change to the sound. Therefore, I checked out the `rhythmEffects()`. I copied the example code that was given to show how `rhythmEffects()` work and compared it to the same type of effect in `setEffect()`. 
 
 
 
