@@ -39,14 +39,17 @@ Project: Making the background music for Angela's game using EarSketch. After ma
 11/27/23
 * I learned a setEffect() function where I can put an effect on my volume of a specific track. I can make it gain valume so that tracks volume increases as the measure increases.
 * I went to find the setEffect function in the API to see what those numbers in the parenthesis meant.
+
 12/2/23
 * I continued from 11/27 and copied the code from API for setEffect() and compared the difference between the sound with the effect of filter and without the effect.
     * I heard that the sound with the effect of filter went from really muffled to becomming clear while the sound without effect sounded the same throughout.
+
 12/10/23
 * I didn't learn anything new for this week but I combined my knowledge on what I know about `setTempo()`, `insertMedia()`, and `setEffect()` and created a small music with those functions.
 * I tried making my tempo slower, hoping to create a sad song since sad songs have slow beats, but instead I created suspenseful music instead. This is fine because I am supposed to be creating suspenseful or creepy music for my freedom project with Angela.
 * I also learned that for `setEffect()`, you need to write the words in capitalization in order for the code to work.
     * I wrote `setEffect(1, volume, gain, -55, 1, 0, 3)` instead of `setEffect(1, VOLUME, GAIN, -55, 1, 0, 3)` and it said that volume was not defined and my code couldn't run. This code allows my music to start out with a low volume and gain volume as the song runs.
+    
 12/16/23
 * After learning that `setEffect()` is used to create different effects on a specific track, I tried to see what `rhythmEffects()` does.
 * I copied the code of `rhythmEffects()` in API, `rhythmEffects(1, PITCHSHIFT, PITCHSHIFT_SHIFT, [0, -12], 1, "0---1++0", 4);`, to check out what it does to the music.
