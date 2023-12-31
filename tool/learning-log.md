@@ -49,7 +49,7 @@ Project: Making the background music for Angela's game using EarSketch. After ma
 * I tried making my tempo slower, hoping to create a sad song since sad songs have slow beats, but instead I created suspenseful music instead. This is fine because I am supposed to be creating suspenseful or creepy music for my freedom project with Angela.
 * I also learned that for `setEffect()`, you need to write the words in capitalization in order for the code to work.
     * I wrote `setEffect(1, volume, gain, -55, 1, 0, 3)` instead of `setEffect(1, VOLUME, GAIN, -55, 1, 0, 3)` and it said that volume was not defined and my code couldn't run. This code allows my music to start out with a low volume and gain volume as the song runs.
-    
+
 12/16/23
 * After learning that `setEffect()` is used to create different effects on a specific track, I tried to see what `rhythmEffects()` does.
 * I copied the code of `rhythmEffects()` in API, `rhythmEffects(1, PITCHSHIFT, PITCHSHIFT_SHIFT, [0, -12], 1, "0---1++0", 4);`, to check out what it does to the music.
@@ -57,3 +57,29 @@ Project: Making the background music for Angela's game using EarSketch. After ma
     * `setEffect(1, PITCHSHIFT, PITCHSHIFT_SHIFT, -10);`
 * I checked to see the difference between the two functions and saw that `setEffect()` of PITCHSHIFT makes the original music sound deeper and more muffled but the effect is more consistant; while, the PITCHSHIFT using the `rhythmEffects()` code above makes the original music deeper and muffled too, but you can change the tone of the music to make the sound go deeper or higher (Still deep and muffled though).
 * I'll try to figure out how to write my own code for `rhythmEffects()` next so I understand what those numbers are used for so I won't have to only use their default numbers.
+
+12/24/23
+* Though I didn't learn how to create my own code for `rhythmEffects()`, I learned some of the `setEffects()`such as CHORUS.
+* I first used the piano sound with chrous effect but the difference wasn't visible so I decided to use the lady singing.
+* The CHORUS_NUMVOICES makes the sound louder if you set the number of voices to a high number.
+* The MIX of chrous allows the voices to kind of sound like you're singing in an empty room.
+
+12/31/23
+* The difference between `rhythmEffects()` and `setEffect()` is that setEffect is a constant change where nothing inbetween will change. However, rhythmEffects allow the effect to change over the course of the sound by making the sound effect become higher, lower, or constant at certain parts.
+* I kind of understand what the beat is for in `rhythmEffects()` by tinkering with the code.
+The original code:
+``` js
+rhythmEffects(1, PITCHSHIFT, PITCHSHIFT_SHIFT, [0, -12], 1, "0---1++0", 4);
+```
+creates ![this](original.png)
+After deleting a minus from the code, it became like this:
+``` js
+rhythmEffects(1, PITCHSHIFT, PITCHSHIFT_SHIFT, [0, -12], 1, "0--1++0", 4);
+```
+and creates ![this](delete-minus.png)
+Then I decided to check out the other side by adding a plus sign:
+``` js
+rhythmEffects(1, PITCHSHIFT, PITCHSHIFT_SHIFT, [0, -12], 1, "0--1+++0", 4);
+```
+and got ![this](add-plus.png)
+I didn't know what would happen if I changed the number 1 to 2 so I changed it and it showed an error, meaning the numbers we use can only be between 0 - 1.
