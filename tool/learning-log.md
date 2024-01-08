@@ -83,3 +83,26 @@ rhythmEffects(1, PITCHSHIFT, PITCHSHIFT_SHIFT, [0, -12], 1, "0--1+++0", 4);
 ```
 and got ![this](add-plus.png)
 I didn't know what would happen if I changed the number 1 to 2 so I changed it and it showed an error, meaning the numbers we use can only be between 0 - 1.
+
+1/7/24
+* I don't think I would need to learn anything new so I just used everything I learned so far: `fitMedia()`, `insertMedia()`, `setEffect()`, and `rhythmEffects()`.
+    * The result of the music I created was:
+``` js
+setTempo(70)
+var piano2 = AK_UNDOG_PIANO_2
+var stomp4 = AK_UNDOG_STOMP_4
+var vocalVerse1 = AK_UNDOG_LEAD_VOCALS_VERSE_1
+var vocalVerse2 = AK_UNDOG_LEAD_VOCALS_VERSE_2
+var kick2 = AK_UNDOG_PERC_KICK_2
+insertMedia(piano2, 2, 2)
+insertMedia(vocalVerse1, 1, 1)
+insertMedia(vocalVerse2, 1, 10)
+rhythmEffects(1, PITCHSHIFT, PITCHSHIFT_SHIFT, [0, -12], 11, "0---1", 1);
+fitMedia(stomp4, 2, 4, 10)
+insertMedia(piano2, 3, 6)
+fitMedia(kick2, 2, 10, 19)
+setEffect(2, VOLUME, GAIN, -55, 1, 0, 3);
+fitMedia(stomp4, 3, 15, 19)
+finish()
+```
+* I made the tempo slower so the sounds are slower and sound a bit scarier, added stomps; kicks; and piano sounds to make the song a bit scarier, then I used `setEffect()` to gain the volume of the stomps; kicks; and piano and `rhythmEffects()` to make the sound deeper towards the end of the music.
