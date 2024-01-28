@@ -112,4 +112,10 @@ finish()
 * The first step is to create an mp3 file.
     * Go to scripts, find your code file, click it, click download, and download the mp3.
 * Next step is to drag the mp3 file into code50.dev
-* I will just take the code I used to loop the audio in my sandbox to create audio for the song. 
+* I will just take the code I used to loop the audio in my sandbox to create audio for the song.
+
+1/28/24
+* I tried to learn kaboom.js to help Angela with her levels so I watched a youtube [tutorial](https://youtu.be/iRXI6ThRJvM?si=wp04euNUhknCF1kg) on how to start kaboom.
+* I then copied a game code from kaboom and everything loaded except for the sprite.
+* I realized that the sprite of "bean" was not defined so I found a stickman image and used that as a sprite.
+* My sprite is huge on the screen but I got my sprite to load, so my next step would be to try and get my sprite to be smaller and to study the code for levels and background to understand the code and what it does. 
