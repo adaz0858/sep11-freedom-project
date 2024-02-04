@@ -118,4 +118,15 @@ finish()
 * I tried to learn kaboom.js to help Angela with her levels so I watched a youtube [tutorial](https://youtu.be/iRXI6ThRJvM?si=wp04euNUhknCF1kg) on how to start kaboom.
 * I then copied a game code from kaboom and everything loaded except for the sprite.
 * I realized that the sprite of "bean" was not defined so I found a stickman image and used that as a sprite.
-* My sprite is huge on the screen but I got my sprite to load, so my next step would be to try and get my sprite to be smaller and to study the code for levels and background to understand the code and what it does. 
+* My sprite is huge on the screen but I got my sprite to load, so my next step would be to try and get my sprite to be smaller and to study the code for levels and background to understand the code and what it does.
+
+2/4/24
+* I tried to comment the codes leaving only one section uncommented in order for me to see what each code does.
+* Angela said that she needs to make the floor solid because she has a floor but her sprite just goes right through the floor.
+* Since Angela mainly needs help with the level floor being solid, I focused on figuring out how to make the floor solid.
+* I went to the code I copied and saw this code:
+```js
+body({ isStatic: true })
+```
+    * I tried commenting this code and I saw that my sprite also started falling through the floor after I commented this code.
+* Then I just sent this code to Angela, hoping she can move on from the level. 
