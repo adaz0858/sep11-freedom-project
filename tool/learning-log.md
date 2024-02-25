@@ -129,4 +129,12 @@ finish()
 body({ isStatic: true })
 ```
     * I tried commenting this code and I saw that my sprite also started falling through the floor after I commented this code.
-* Then I just sent this code to Angela, hoping she can move on from the level. 
+* Then I just sent this code to Angela, hoping she can move on from the level.
+
+2/25/24
+* Angela and I finished our plan doc a few days ago and we decided that instead of making a suspense music, we would do a joyful music.
+* I used fitMedia(), insertMedia(), and setEffect() to create a joyful music.
+    * I decided to use a guitar sound as my main sound because it sounds really joyful.
+    * I also added some wood, clap, and shaker sounds to make it sound more joyful (though it sounds more like a Hawaii beach day).
+    * I created an mp3 file so I can embed the music into Angela's game once she creates a file for us.
+    * Then I will loop the music because it's really short.
