@@ -138,3 +138,9 @@ body({ isStatic: true })
     * I also added some wood, clap, and shaker sounds to make it sound more joyful (though it sounds more like a Hawaii beach day).
     * I created an mp3 file so I can embed the music into Angela's game once she creates a file for us.
     * Then I will loop the music because it's really short.
+
+    2/26/24
+* I learned that `body()` is used so the sprite can respond to gravity.
+* You first have to `loadSprite("name", "image.png")` then add the `sprite("name")`.
+* `scale()` allows you to change your sprite size.
+* `area()` checks for collision. 

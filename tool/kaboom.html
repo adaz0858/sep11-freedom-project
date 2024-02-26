@@ -39,6 +39,7 @@ scene("game", () => {
     const player = add([
         // list of components
         sprite("stickman"),
+        scale(0.1),
         pos(10, 5),
         area(),
         body(),
@@ -58,7 +59,7 @@ scene("game", () => {
         pos(0, height()),
         anchor("botleft"),
         area(),
-        // body({ isStatic: true }),
+        body({ isStatic: true }),
         color(127, 200, 255),
     ]);
 
