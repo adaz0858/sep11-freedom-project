@@ -149,6 +149,6 @@ body({ isStatic: true })
 * Angela wants to create a sprite that moves randomly so I tried to code that.
     * I then have to send the code to her because she's the main game coder.
 * "Cannot access 'player' before initialization" error occurs usually with "const" and "let."
-* `move(0, rand(-100)),` the quantity on the right allows the sprite to be a certain speed.
+* `move(0, -100),` the quantity on the right allows the sprite to be a certain speed.
     * You can set the value as a negative so it moves left or positive so it moves right.
-* `rand(number)` allows you to have a number between 0 - number. 
+* `rand(number)` allows you to have a number between 0 - number.
