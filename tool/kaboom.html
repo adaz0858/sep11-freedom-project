@@ -26,7 +26,6 @@ const SPEED = 480;
 
 // initialize context
 kaboom();
-
 // load assets
 loadSprite("stickman", "stickman.webp");
 
@@ -35,6 +34,17 @@ scene("game", () => {
     // define gravity
     setGravity(1600);
 
+        // monster
+loadSprite("monster", "monster.jpg");
+var monster = add([
+        // list of components
+        sprite("monster"),
+        scale(0.05),
+        pos(1000,0),
+        area(),
+        body(),
+        move(0, -100),
+    ]);
     // add a game object to screen
     const player = add([
         // list of components
@@ -44,6 +54,7 @@ scene("game", () => {
         area(),
         body(),
     ]);
+
 //     add([
 //     sprite("stickman"),
 //     pos(80, 40),
