@@ -154,4 +154,9 @@ body({ isStatic: true })
 * `rand(number)` allows you to have a number between 0 - number.
 
 3/16/24
-* 
+* When you function jump() you have to give the player a jump force and make sure the player is on the ground and then you can call the function and make the player jump when a certain key is pressed.
+* If you dont use the conditional
+``` js
+if (player.isGrounded())
+```
+then the player would be able to jump continuosly in mid air. 
