@@ -74,15 +74,15 @@ scene("game", () => {
         color(127, 200, 255),
     ]);
 
-//     function jump() {
-//         if (player.isGrounded()) {
-//             player.jump(JUMP_FORCE);
-//         }
-//     }
+     function jump() {
+        //  if (player.isGrounded()) {
+             player.jump(JUMP_FORCE);
+        //  }
+     }
 
 //     // jump when user press space
-//     onKeyPress("space", jump);
-//     onClick(jump);
+     onKeyPress("space", jump);
+     onClick(jump);
 
 //     function spawnTree() {
 
@@ -95,7 +95,7 @@ scene("game", () => {
 //             anchor("botleft"),
 //             color(255, 180, 255),
 //             move(LEFT, SPEED),
-//             "tree",
+            // "tree",
 //         ]);
 
 //         // wait a random amount of time to spawn next tree

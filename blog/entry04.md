@@ -18,7 +18,29 @@ This image ![monster](monster.png) shows the monster when it fell to the ground 
         move(0, -100),
     ]);
 ```
-This code is used for the monster sprite. I positioned the monster far away from the player moving at a speed of 100. 
+This code is used for the monster sprite. I positioned the monster far away from the player moving at a speed of 100. I then tried to figure out how to get my sprite to jump. I used the given code for jump and it is in two separate codes, a function and an onKeyPress():
+```js
+     function jump() {
+         if (player.isGrounded()) {
+             player.jump(JUMP_FORCE);
+         }
+     }
+
+//     // jump when user press space
+     onKeyPress("space", jump);
+     onClick(jump);
+```
+This code shows that the function is being created so the player can jump when they touch the ground. Then the function will be called when the space key is pressed. In the beginning, I didn't know what the function was used for so I commented out the function and it gave me an error saying, "jump is not defined" so I know that the function is to define the function of jump. I then wondered about what would happen if I commented out the conditional of `player.isGrounded()` so I commented out the conditional. Then I saw how the player can jump everytime you press the space key, even in mid air. ![jump](jump-high.png)
+
+### Skills
+* Search up your error because it might help you understand why youg ot the error. I wouldn't have known that `const` is the problem if I didn't search up my error. All I had to do was change `const` to `var` but I wouldn't have done that if I didn't know what this error means.
+* Communicate because you never know if your partner needs help with something specific. I asked Angela about what she needed help with and I was able to help her achieve a goal so she can figure out something else.
+* Ask youself questions because you can answer a lot of your own questions if you try it out yourself. I asked myself what would happen if I commented out the function and what would happen if I commented out the conditional and I ended up learning something new.
+
+### Next Goals
+* Make the player lose health when it touches the monster.
+* Make a health car to show player's health and make player disappear and lose if their health is 0.
+* Create coins for the player to grab and kept with their score. 
 
 [Previous](entry03.md) | [Next](entry05.md)
 
