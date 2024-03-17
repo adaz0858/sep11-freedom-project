@@ -152,3 +152,6 @@ body({ isStatic: true })
 * `move(0, -100),` the quantity on the right allows the sprite to be a certain speed.
     * You can set the value as a negative so it moves left or positive so it moves right.
 * `rand(number)` allows you to have a number between 0 - number.
+
+3/16/24
+* 
