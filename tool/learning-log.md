@@ -159,4 +159,4 @@ body({ isStatic: true })
 ``` js
 if (player.isGrounded())
 ```
-then the player would be able to jump continuosly in mid air. 
+then the player would be able to jump continuously in mid air.
