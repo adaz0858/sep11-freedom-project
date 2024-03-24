@@ -153,7 +153,7 @@ body({ isStatic: true })
     * You can set the value as a negative so it moves left or positive so it moves right.
 * `rand(number)` allows you to have a number between 0 - number.
 
-3/16/24
+3/24/24
 * When you function jump() you have to give the player a jump force and make sure the player is on the ground and then you can call the function and make the player jump when a certain key is pressed.
 * If you dont use the conditional
 ``` js
