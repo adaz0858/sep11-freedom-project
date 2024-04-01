@@ -53,8 +53,12 @@ scene("game", () => {
         pos(10, 5),
         area(),
         body(),
+        health(1),
     ]);
+    player.onCollide("monster", "player", (monster, player) => {
+        destroy(player)
 
+})
 //     add([
 //     sprite("stickman"),
 //     pos(80, 40),
@@ -79,7 +83,12 @@ scene("game", () => {
              player.jump(JUMP_FORCE);
         //  }
      }
-
+var healthBar = add([
+    rect(300, 50),
+    area(),
+    pos(player),
+    color(0, 255, 0),
+])
 //     // jump when user press space
      onKeyPress("space", jump);
      onClick(jump);
@@ -107,12 +116,12 @@ scene("game", () => {
 //     spawnTree();
 
 //     // lose if player collides with any game obj with tag "tree"
-//     player.onCollide("tree", () => {
-//         // go to "lose" scene and pass the score
-//         go("lose", score);
-//         burp();
-//         addKaboom(player.pos);
-//     });
+    player.onCollide("monster", () => {
+        // go to "lose" scene and pass the score
+        go("lose", score);
+        burp();
+        addKaboom(player.pos);
+    });
 
 //     // keep track of score
 //     let score = 0;

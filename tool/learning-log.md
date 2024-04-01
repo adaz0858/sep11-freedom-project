@@ -160,3 +160,9 @@ body({ isStatic: true })
 if (player.isGrounded())
 ```
 then the player would be able to jump continuously in mid air.
+4/1/24
+* I tried to take the code for a health bar in kaboom.js but the monster doesn't kill the player it only pushes it.
+* I tried to make my player die once it touches the monster then I tried to get the player to lose health once it touches the monster but it doesn't work either.
+* Then I watched the health section of a [YouTube](https://youtu.be/TLH0taCeE6I?si=h55yYJBv0mbSds1k) video.
+    * I learned that I have to first create a variable for my health container.
+    * It still didn't work because I think I have to watch the whole video to understand what he did before the health container so I learn how to use the different functions. 
