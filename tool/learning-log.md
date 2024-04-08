@@ -165,4 +165,15 @@ then the player would be able to jump continuously in mid air.
 * I tried to make my player die once it touches the monster then I tried to get the player to lose health once it touches the monster but it doesn't work either.
 * Then I watched the health section of a [YouTube](https://youtu.be/TLH0taCeE6I?si=h55yYJBv0mbSds1k) video.
     * I learned that I have to first create a variable for my health container.
-    * It still didn't work because I think I have to watch the whole video to understand what he did before the health container so I learn how to use the different functions. 
+    * It still didn't work because I think I have to watch the whole video to understand what he did before the health container so I learn how to use the different functions.
+
+4/7/24
+* I was supposed to watch the whole video from last learning log but I had to be out for full day both weekend days and had to do lots of homework on the weekdays so I'll do that next weekend if I have time.
+* Since the destroy didn't work I tried to see if I can use add explosion but it didn't work either.
+    * Original code:
+    ``` js
+    onCollide("stickman", "monster", () => {
+    addExplosion()
+    })
+    ```
+* I then realized that I didn't name my variable "stickman" I named it "player" so I changed it but it still didn't work. 

@@ -55,9 +55,8 @@ scene("game", () => {
         body(),
         health(1),
     ]);
-    player.onCollide("monster", "player", (monster, player) => {
-        destroy(player)
-
+    onCollide("player", "monster", () => {
+    addExplosion()
 })
 //     add([
 //     sprite("stickman"),
