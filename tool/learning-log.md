@@ -176,4 +176,15 @@ then the player would be able to jump continuously in mid air.
     addExplosion()
     })
     ```
-* I then realized that I didn't name my variable "stickman" I named it "player" so I changed it but it still didn't work. 
+* I then realized that I didn't name my variable "stickman" I named it "player" so I changed it but it still didn't work.
+
+4/14/24
+* I made my player sprite move when I press the right arrow by using `onKeyDown()`.
+* I watched the 20 minutes of the video and learned that you can animate the sprites.
+    * ![animate](animate.png)
+    * You can give them rando names and give them random movements to create your own animation.
+* You can use scene to go from one scene to another.
+    * Create a random scene then use go() to go to that scene.
+    * ![scene](scene.png)
+* You can use background.add([]) to add a sprite in the background.
+* Use pos() to place your sprite at a specific position.
