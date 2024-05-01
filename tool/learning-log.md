@@ -188,3 +188,6 @@ then the player would be able to jump continuously in mid air.
     * ![scene](scene.png)
 * You can use background.add([]) to add a sprite in the background.
 * Use pos() to place your sprite at a specific position.
+
+4/15/24
+* After changing my direction of the movement to `rand(-100, 100)`, my monster sprite would have a slight jump at times while walking. 
